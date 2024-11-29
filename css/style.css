@@ -235,12 +235,18 @@ header .change-theme {
 
 /* Start About */
 .about .about-image {
-  background: linear-gradient(180deg, hsl(250, 66%, 71%), hsla(250, 66%, 71%, 0.2));
   border-radius: 20px;
   text-align: center;
 }
 .about .about-image img {
   height: 320px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 4px solid hsl(250, 66%, 71%);
+  width: 300px
 }
 @media (max-width: 575px) {
   .about .about-boxes {
@@ -267,6 +273,9 @@ header .change-theme {
   border-color: hsl(250, 66%, 75%) !important;
   border-width: 2px;
   color: #fff;
+  width: 150px !important;
+  margin: auto !important;
+  text-align: center !important;
 }
 .about .about-contact.hvr-rectangle-in:before {
   background-color: hsl(250, 66%, 75%);
@@ -274,7 +283,7 @@ header .change-theme {
 .about .about-contact.btn {
   box-shadow: none !important;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1700px) {
   .about .about-contact {
     width: 150px;
     display: block;
@@ -720,3 +729,23 @@ body.light-theme .footer-links a {
 .skills {
   padding-bottom: 0 !important;
 }/*# sourceMappingURL=style.css.map */
+
+.image_home{
+  width: 40%;
+}
+.work_title{
+  font-size: 18px;
+  color: #f1f1ff;
+}
+.work_content{
+  font-size: 16px !important;
+  color: #777;
+}
+.work_content h4{
+  font-size: 12px !important;
+}
+.work-desc-content{
+  font-size: 12px !important;
+  color: #777;
+  line-height: 1.7;
+}
