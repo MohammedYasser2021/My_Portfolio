@@ -24,6 +24,11 @@ header nav .navbar-menu, .section-title::after {
   font: var(--fa-font-solid);
   transition: 0.4s ease-in-out;
 }
+@media (max-width: 576px) {
+  .services .services-content .experience-items ul li::before, .personal .personal-skills li::before, .personal .info li::before{
+    top: 7px !important;
+  }
+}
 
 /* Global Styles */
 * {
@@ -737,6 +742,11 @@ body.light-theme .footer-links a {
   font-size: 18px;
   color: #f1f1ff;
 }
+@media (max-width: 767px) {
+  .work_title{
+    text-align: center !important;
+  }
+}
 .work_content{
   font-size: 16px !important;
   color: #777;
@@ -744,8 +754,22 @@ body.light-theme .footer-links a {
 .work_content h4{
   font-size: 12px !important;
 }
+@media (max-width: 767px) {
+  .work_content{
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
 .work-desc-content{
   font-size: 12px !important;
   color: #777;
   line-height: 1.7;
+}
+
+@media (max-width: 767px) {
+  .work-desc-content{
+    text-align: center !important;
+  }
 }
