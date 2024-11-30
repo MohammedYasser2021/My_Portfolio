@@ -750,7 +750,7 @@ body.light-theme .footer-links a {
 }
 .work_content{
   font-size: 16px !important;
-  color: #777;
+  color: #aaa !important;
 }
 .work_content h4{
   font-size: 12px !important;
@@ -765,7 +765,7 @@ body.light-theme .footer-links a {
 }
 .work-desc-content{
   font-size: 12px !important;
-  color: #777;
+  color: #aaa !important;
   line-height: 1.75;
 }
 
